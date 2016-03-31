@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Heekonix Alumni Map</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="assets/bootstrap.feedthefox.min.css" />
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+        <script src="assets/fetch/promise.min.js"></script>
+        <script src="assets/fetch/fetch.js"></script>
+        <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+        <script src="assets/leaflet/leaflet.js"></script>
+        <script src="assets/js/sorttable.js"></script>
+        <script src="assets/js/md5.js"></script>
+        <style>
+            * { font-family: "Fira Sans",sans-serif !important; }
+            body { margin-left:20px; margin-right:20px; }
+            .header {
+                background-color: #0C99D5;
+                background-image: linear-gradient(to bottom, rgba(12, 153, 213, 0) 0px, rgba(12, 153, 213, 0) 100px, #0C99D5 550px, #0C99D5), repeating-linear-gradient(118deg, rgba(12, 153, 213, 0) 0px, #00A7E0 550px, rgba(12, 153, 213, 0) 550px, #00A7E0 800px, rgba(12, 153, 213, 0) 800px, #00A7E0 950px);
+                color:white;
+                margin-left: -20px;
+                margin-right: -20px;
+                padding-top:10px;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+            .header h1 {margin-top:0;}
+			h1 a {
+				color: #DAE6FF;
+				font-size: 20px;
+			}
+			.header h1, .header h3, #map {
+				width: 80%;
+				margin: 0 auto;
+			}
+			.header h3 {
+				margin-bottom:5px;
+			}
+            #map { height: 60%; padding-bottom:10px; }
+            #list { margin-top:10px; width:100% }
+            table.sortable thead {
+                background-color:#eee;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            footer {
+                background-color: #57585D;
+                color: #FFF;
+                height: 140px;
+                padding: 40px 0px;
+                width: 100%;
+                font-size: 0.9em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1><span class="counter"></span>Geekonix Alumni Map - <a href="https://github.com/rabimba">Add yourself!</a></h1>
+            <h3>Find your nearest Geekonix Alumni on the map or filter from the list in the bottom</h3>
+            <div id="map"></div>
+            <br>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <table id="list" class="sortable table col-lg-12">
+                    <thead>
+                        <tr>
+                            <td>Name <small>(click me)</small></td>
+                            <td>Country <small>(click me)</small></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="https://www.mozilla.org"><img class="footer-logo" src="//d1jou7z3786ary.cloudfront.net/static/img/footer-mozilla.d2f5c608cf32.png" alt="mozilla"></a>
+                        <p class="license">
+                            Portions of this content are ©1998–2015 by individual mozilla.org contributors.<br> Content available under a
+                            <a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a>.
+                        </p>
+                    </div>
+
+                    <div class="footer-license col-md-6">
+                        <div>This is a <a href="http://geekonix.org/">Geekonix Alumni Team</a> experiment.</div>
+                        <br>
+                        <p>
+                            <a href="https://github.com/rabimba">Contribute to this map</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
