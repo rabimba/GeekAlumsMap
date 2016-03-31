@@ -1,13 +1,29 @@
 {
 	"leaders": [
 		{
+			"name": "Daniele Scasciafratte",
+			"url": "https://mozillians.org/u/Mte90",
+			"gravatar": "mte90net@gmail.com",
+			"country": "Italy",
+			"lat": 42.4154,
+			"lng": 12.863985
+		},
+		{
+			"name": "Akshay S Dinesh",
+			"url": "https://mozillians.org/u/asdofindia",
+			"gravatar": "asdofindia@gmail.com",
+			"country": "India",
+			"lat": 12.3063978,
+			"lng": 76.6446806
+		},
+		{
 			"name": "Rabimba Karanjai",
-			"url": "https://blog.rabimba.com",
-			"gravatar": "rabimba@yahoo.com",
-			"country": "USA",
+			"url": "https://mozillians.org/u/karanjai.moz/",
+			"gravatar": "karanjai.moz@gmail.com",
+			"country": "United States",
 			"lat": 29.7604,
 			"lng": -95.3698
 		},
-
+	
 	]
 }
