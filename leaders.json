@@ -7,6 +7,14 @@
 			"country": "United States",
 			"lat": 29.7604,
 			"lng": -95.3698
+		},
+		{
+			"name": "Vivek Anand",
+			"url": "https://www.facebook.com/vanand3",
+			"gravatar": "vivek.kittu2001@gmail.com",
+			"country": "United States",
+			"lat": 42.29,
+			"lng": -71.38
 		}
 	]
 }
