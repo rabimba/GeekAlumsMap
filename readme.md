@@ -1,12 +1,12 @@
-#Geekonix Alumni Map
+# Geekonix Alumni Map
 
-##RoadMap
+## RoadMap
 
 * Searchable name by input search
 
-##Add your name
+## Add your name
 
-###Pull Request Way
+### Pull Request Way
 
 * Create/Sign in into github account. (you can jump to step 4 or take them one by one)
 * Go to https://github.com/rabimba
@@ -31,7 +31,7 @@
 * Click on create Pull Request
 * Done!
 
-###Issue/Ticket Way
+### Issue/Ticket Way
 
 * Create/Sign in into github account.
 * Go to https://github.com/rabimba/GeekAlumsMap
