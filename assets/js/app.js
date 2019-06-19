@@ -14,7 +14,7 @@ function create_map() {
   });
   window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors | Tiles Courtesy of <a href="http://www.mapquest.com/" title="MapQuest" target="_blank">MapQuest</a>',
-    subdomains: ['otile1', 'otile2', 'otile3', 'otile4']
+    subdomains: ['a', 'b', 'c']
   }).addTo(window.map);
   add_leaders();
 }
